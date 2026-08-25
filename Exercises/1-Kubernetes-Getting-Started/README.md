@@ -53,7 +53,7 @@ hello-k8s   1/1     Running   0
 
 The `1/1` status indicates that the Nginx container is ready and running.
 
-![Kubernetes Deployment](screenshots/01-kubernetes-deployment.png)
+![Kubernetes Deployment](screenshots/01-kubernetes-deployment.png.png)
 
 ## 4. Expose the Pod
 
@@ -83,7 +83,7 @@ Minikube created a tunnel for the Service and opened the application in the brow
 
 The Nginx welcome page was successfully displayed:
 
-![Nginx Welcome Page](screenshots/02-nginx-welcome-page.png)
+![Nginx Welcome Page](screenshots/02-nginx-welcome-page.png.png)
 
 ## 6. Kubernetes Working
 
