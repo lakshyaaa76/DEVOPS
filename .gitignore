@@ -1,0 +1,33 @@
+# VS Code settings and workspace files
+**/.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local environment variables
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
