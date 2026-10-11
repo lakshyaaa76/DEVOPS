@@ -8,7 +8,11 @@ pipeline {
             }
         }
         stage('Build Docker Image') {
-            steps { sh 'docker build -t delivery_metrics .' }
+            steps {
+                dir('Exercises/6-Grafana-Realtime-Monitoring-of-Quick-Commerce-App') {
+                    sh 'docker build -t delivery_metrics .'
+                }
+            }
         }
         stage('Run Application') {
             steps {
