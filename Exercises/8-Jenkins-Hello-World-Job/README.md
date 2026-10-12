@@ -2,7 +2,7 @@
 
 ## Objective
 
-Run Jenkins in a Docker container, connect it to a GitHub Repository containing a shell script, and create a Freestyle job that pulls the script from GitHub and executes it.
+Run Jenkins in a Docker container, connect it to a GitHub repository containing a shell script, and create a Freestyle job that pulls the script from GitHub and executes it.
 
 ## Environment
 
