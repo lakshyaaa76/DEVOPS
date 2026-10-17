@@ -2,7 +2,7 @@
 
 This repository contains my implementations and documentation for the **DevOps Lab exercises** completed as part of my coursework.
 
-The exercises cover different DevOps, containerization, orchestration, CI/CD, cloud, and related concepts. Each exercise is documented separately with the commands, configurations, implementation details, verification steps, and evidence of completion wherever applicable.
+The exercises cover Kubernetes and Minikube, Docker networking and security, monitoring with Grafana, and CI/CD with Jenkins. Each exercise is documented separately with the commands, configurations, implementation details, verification steps, and screenshots of successful execution.
 
 ## Repository Purpose
 
@@ -18,69 +18,66 @@ For each exercise, I document:
 * Screenshots/evidence of successful execution
 * Final outcome
 
-The repository is intended to serve as both a **record of completed coursework** and a reference for the concepts and tools used during the lab.
+The repository serves as both a **record of completed coursework** and a reference for the concepts and tools used during the lab.
 
 ## Exercises
 
-All exercises are maintained inside the [`Exercises`](./Exercises) directory.
-
-Each exercise has its own folder containing the relevant documentation and implementation artifacts.
+All exercises are maintained inside the [`Exercises`](./Exercises) directory. Each exercise has its own folder containing a `README.md` and its screenshots.
 
 ```text
 Exercises/
-├── Exercise-1/
-├── Exercise-2/
-├── Exercise-3/
-├── ...
-└── Exercise-N/
+├── 1-Kubernetes-Getting-Started/
+├── 2-Minikube-Kubectl-Flask/
+├── 3-Minikube-Scaling-Flask-App-with-Replicasets/
+├── 4-Docker-Networking/
+├── 5-Docker-Security-AppArmor/
+├── 6-Grafana-Realtime-Monitoring-of-Quick-Commerce-App/
+├── 7-Jenkins-CI-Automation/
+├── 8-Jenkins-Hello-World-Job/
+├── 9-Jenkins-Multi-Stage-Pipeline/
+└── 10-Minikube-Multi-Node-Multi-App-Minikube-Deployment/
 ```
-
-The individual exercise folders contain the detailed documentation and evidence for the corresponding exercise.
-
-## How to Use This Repository
-
-Start with the `Exercises` folder to navigate through the completed lab exercises.
-
-For a particular exercise:
-
-1. Open its folder inside `Exercises`.
-2. Read the exercise `README.md` for the objective and implementation details.
-3. Review the commands/configuration used.
-4. Check the verification steps and results.
-5. Refer to the screenshots or other artifacts included with the exercise where applicable.
-
-## Documentation Approach
-
-The documentation in this repository focuses on **my completed implementation** rather than reproducing the original lab instructions.
-
-Where an exercise requires practical execution, screenshots and other relevant artifacts are included to demonstrate the result.
 
 ## Progress
 
-| Exercise   | Status    |
-| ---------- | --------- |
-| Exercise 1 | Completed |
-| Exercise 2 | Pending   |
-| Exercise 3 | Pending   |
-| ...        | ...       |
+| #  | Exercise | Focus Area | Status |
+| -- | -------- | ---------- | ------ |
+| 1  | [Kubernetes Getting Started](./Exercises/1-Kubernetes-Getting-Started) | Kubernetes fundamentals | Completed |
+| 2  | [Minikube, kubectl & Flask](./Exercises/2-Minikube-Kubectl-Flask) | Deploying a Flask app on Minikube using kubectl | Completed |
+| 3  | [Scaling a Flask App with ReplicaSets](./Exercises/3-Minikube-Scaling-Flask-App-with-Replicasets) | ReplicaSets and scaling on Minikube | Completed |
+| 4  | [Docker Networking](./Exercises/4-Docker-Networking) | Docker network types and container communication | Completed |
+| 5  | [Docker Security with AppArmor](./Exercises/5-Docker-Security-AppArmor) | Flask app, custom AppArmor profile, Docker SDK for Python | Completed |
+| 6  | [Grafana Real-time Monitoring of a Quick Commerce App](./Exercises/6-Grafana-Realtime-Monitoring-of-Quick-Commerce-App) | Real-time monitoring and dashboards with Grafana | Completed |
+| 7  | [Jenkins CI Automation](./Exercises/7-Jenkins-CI-Automation) | Jenkins running in Docker, CI automation | Completed |
+| 8  | [Jenkins Hello World Job](./Exercises/8-Jenkins-Hello-World-Job) | Creating and running a basic Jenkins job | Completed |
+| 9  | [Jenkins Multi-Stage Pipeline](./Exercises/9-Jenkins-Multi-Stage-Pipeline) | Multi-stage Jenkins pipeline | Completed |
+| 10 | [Multi-Node, Multi-App Minikube Deployment](./Exercises/10-Minikube-Multi-Node-Multi-App-Minikube-Deployment) | Multi-node Minikube cluster with multiple applications | Completed |
 
-This table will be updated as additional exercises are completed.
+**Summary:** 10 of 10 exercises completed.
+
+## How to Use This Repository
+
+1. Open the `Exercises` folder and pick an exercise.
+2. Read its `README.md` for the objective and implementation details.
+3. Review the commands and configuration used.
+4. Check the verification steps and results.
+5. Refer to the screenshots included in the exercise folder.
+
+## Documentation Approach
+
+The documentation focuses on **my completed implementation** rather than reproducing the original lab instructions. Where an exercise requires practical execution, screenshots are included to demonstrate the result.
 
 ## Technologies
 
-The technologies and tools used vary between exercises and may include:
-
-* Linux
-* Docker
-* Kubernetes
-* Minikube
-* kubectl
+* Docker, Docker Networking, Docker Security (AppArmor)
+* Python (Flask, Docker SDK for Python)
+* Kubernetes, Minikube, kubectl
+* Grafana
+* Jenkins (jobs and multi-stage pipelines)
 * Git & GitHub
-* CI/CD tools
-* Cloud and DevOps tools
 
 The specific technologies used for each exercise are documented in its respective folder.
 
 ## Note
 
-This repository is maintained as part of my **DevOps Lab coursework**. The `Exercises` directory contains the individual practical exercises, while this README provides the overall context and navigation for the repository.
+This repository is maintained as part of my **DevOps Lab coursework**. The `Exercises` directory contains the individual practical exercises, while this README provides the overall context and navigation.
